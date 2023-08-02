@@ -82,7 +82,7 @@ function checkAnswer(n)
 
 
 function playsound(name){
-    var sound=new Audio("sounds/"+name+".mp3");
+    var sound=new Audio(name+".mp3");
     sound.play();
 }
 
